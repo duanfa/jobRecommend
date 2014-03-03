@@ -40,7 +40,7 @@ public class RecommenderFilterOutdateResult {
     }
 
     public static void filterOutdate(long uid, RecommenderBuilder recommenderBuilder, DataModel dataModel) throws TasteException, IOException {
-        Set<Long> jobids = getOutdateJobID("datafile/job/job.csv");
+        Set<Long> jobids = getOutdateJobID("src/datafile/job/job.csv");
         IDRescorer rescorer = new JobRescorer(jobids);
         List<RecommendedItem> list = recommenderBuilder.buildRecommender(dataModel).recommend(uid, RECOMMENDER_NUM, rescorer);
         RecommendFactory.showItems(uid, list, false);

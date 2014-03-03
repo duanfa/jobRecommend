@@ -11,5 +11,16 @@
 	<classpathentry kind="lib" path="lib/mahout-math-0.9.jar"/>
 	<classpathentry kind="lib" path="lib/commons-math-2.1.jar"/>
 	<classpathentry kind="lib" path="lib/commons-math3-3.2.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-common-2.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-nfs-2.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-hdfs-2.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-hdfs-nfs-2.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-mapreduce-client-app-2.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-mapreduce-client-common-2.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-mapreduce-client-core-2.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-mapreduce-client-hs-2.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-mapreduce-client-hs-plugins-2.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-mapreduce-client-jobclient-2.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-mapreduce-client-shuffle-2.2.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -27,7 +27,7 @@ public class RecommenderTest {
     final static int RECOMMENDER_NUM = 3;
 
     public static void main(String[] args) throws TasteException, IOException {
-        String file = "datafile/item.csv";
+        String file = "src/datafile/item.csv";
         DataModel dataModel = RecommendFactory.buildDataModel(file);
         treeCluster(dataModel);
     }
